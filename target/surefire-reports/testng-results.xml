@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="38169" started-at="2021-03-17T12:54:54Z" finished-at="2021-03-17T12:55:32Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="38169" started-at="2021-03-17T12:54:54Z" finished-at="2021-03-17T12:55:32Z">
+      <class name="org.rahulshettyacademy.DemoTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.rahulshettyacademy.DemoTest@6537cf78]" name="setUp" is-config="true" duration-ms="10098" started-at="2021-03-17T12:54:54Z" finished-at="2021-03-17T12:55:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="flightTest(java.util.HashMap)[pri:0, instance:org.rahulshettyacademy.DemoTest@6537cf78]" name="flightTest" duration-ms="13669" started-at="2021-03-17T12:55:09Z" data-provider="getData" finished-at="2021-03-17T12:55:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{destination=HYD, destination2=DEL, origin=MAA}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightTest -->
+        <test-method status="PASS" signature="flightTest(java.util.HashMap)[pri:0, instance:org.rahulshettyacademy.DemoTest@6537cf78]" name="flightTest" duration-ms="7783" started-at="2021-03-17T12:55:23Z" data-provider="getData" finished-at="2021-03-17T12:55:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{destination=HYD, destination2=MAA, origin=DEL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.rahulshettyacademy.DemoTest@6537cf78]" name="tearDown" is-config="true" duration-ms="1536" started-at="2021-03-17T12:55:31Z" finished-at="2021-03-17T12:55:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.rahulshettyacademy.DemoTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
