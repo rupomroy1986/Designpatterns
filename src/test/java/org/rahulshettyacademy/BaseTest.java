@@ -13,7 +13,7 @@ import java.util.HashMap;
 import java.util.List;
 
 public class BaseTest {
-    //important test cases
+    //important test cases...
 
     public WebDriver initializeDriver() {
         System.setProperty("webdriver.chrome.driver", "F:\\design patterns\\88\\chromedriver.exe");
