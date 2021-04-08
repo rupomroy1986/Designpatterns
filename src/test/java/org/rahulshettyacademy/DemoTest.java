@@ -44,7 +44,7 @@ public void setUp()
         reservationdetails.put("destination2","DEL");*/
         travelHomePage.checkAvail(reservationdetails);
     }
-   //if you want to write the test cases with multiple sets of data, use dataproviders
+   //if you want to write the test cases with multiple sets of data, use dataproviders very very important
     @DataProvider
     public Object [][]getData() throws IOException {
        //here we are putting the values in Hasmap and running the test with multiple sets of data
